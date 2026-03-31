@@ -1,9 +1,9 @@
 {
   "name": "rajeev-node-19-02-026",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index-book.js",
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node --watch index-book.js"
   },
   "keywords": [],
   "author": "",
