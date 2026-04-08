@@ -1,5 +1,5 @@
 require("dotenv/config");
-const defineConfig = require("drizzle-kit");
+const {defineConfig} = require("drizzle-kit");
 
 const config = defineConfig({
   out: './drizzle',

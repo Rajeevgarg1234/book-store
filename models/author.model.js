@@ -1,7 +1,7 @@
-const { pgTable } = require(drizzle-orm/pg-core);
+const { pgTable , uuid , varchar} = require("drizzle-orm/pg-core");
 
 const authorTable = pgTable("authore",{
-    id: uuid.primaryKey().defaultRandom(),
+    id: uuid().primaryKey().defaultRandom(),
     firstName: varchar({length: 55}).notNull(),
     lastName: varchar({length: 55}),
     email: varchar({length: 255}).notNull().unique(),
